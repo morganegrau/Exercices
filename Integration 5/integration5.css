@@ -1,0 +1,221 @@
+body{
+	margin:0;
+	font-family: 'Lato', sans-serif;
+
+}
+h1{
+	font-size: 110%;
+}
+h3{
+	font-size: 70%;
+	opacity: 0.6;
+	color: white;
+	padding-left: 4%;
+
+}
+.navigation {
+	margin: 0;
+	display: flex;
+	position:fixed;
+	width: 100%;
+	height:48px;
+	background-color: black;
+}
+.title{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 50%;
+	color: white;
+	padding-left: 2%;
+}
+.menu{
+	height: 100%;
+	width: 45%;
+}
+.search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 4%;
+	background-color: #24890d;
+	color: white;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0%;
+	padding-left: 0%;
+	height: 100%;
+}
+li{
+	display: flex;
+	align-items: center;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+li:hover{
+	background-color: #24890d;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+.main{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: 1430px;
+	background-color: black;
+}
+.deroulant{
+	display: flex;
+	flex-direction: column;
+	padding-top: 4%;
+	height: 100%;
+	width: 278px;
+}
+
+.deroulant ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0%;
+	padding-left: 0%;
+	height: 100%;
+}
+.deroulant li{
+	display: flex;
+	align-items: center;
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid rgba(333, 333, 333,0.5);
+}
+.deroulant li:hover{
+	background-color: #24890d;
+}
+
+.deroulant li a {
+	text-decoration: none;
+	color: white;
+	font-size: 70%;
+}
+.deroulantcentre{
+	width: 200px;
+	height: 100%;
+	margin-left: 10%;
+	padding-top: 3%;
+	color: white;
+}
+.recherche{
+	background-color: #191919;
+	border-radius: 4%;
+	width: 192px;
+	height: 28px;
+	padding-left: 2%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	border: 2px solid rgba(333, 333, 333,0.2);
+	color:white;
+	opacity: 0.7;
+	margin-bottom: 20%;
+}
+.release{
+	width: 100%;
+	height: 202px;
+	background:url('images/wide-listener-1024x1024.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#release{
+	font-style:italic;
+	opacity: 0.5;
+	margin-bottom: 0;
+	margin-top: 8%;
+}
+#thanks{
+	padding-top: 30%;
+}
+#opacity{
+	opacity: 0.5;
+}
+#audiotheme{
+	opacity:0.8;
+	font-size:90%;
+	padding-top: 30%;
+}
+.deroulant p{
+	margin-top: 2%;
+}
+.center{
+	background-color: white;
+	width: 85%;
+	padding-top: 3%;
+}
+.triptik{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+
+}
+.theme{
+	width: 34%;
+}
+.image1{
+	height: 200px;
+	background:url('images/nowell-featured-image-1038x576.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.image2{
+	height: 200px;
+	background:url('images/image3577.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.image3{
+	height: 200px;	
+	background:url('images/322267385_640.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.info{
+	background-color: black;
+	padding-left: 2%;
+	height: 150px;
+	color: white;
+}
+.info h4 {
+	margin-top: 0;
+	padding-top: 2%;
+	font-size: 70%;
+}
+.info h1{
+	font-weight: lighter;
+}
+.contenu{
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.text{
+	width: 100%;
+	height: 780px;
+	width: 580px;
+}
+.gigs{
+	
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
