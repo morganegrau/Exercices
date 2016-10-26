@@ -34,13 +34,13 @@ hr {
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
-	width: 50%;
+	width: 30%;
 	color: white;
 	padding-left: 2%;
 }
 .menu{
 	height: 100%;
-	width: 45%;
+	width: 65%;
 }
 .search{
 	display: flex;
@@ -474,8 +474,4 @@ li a {
     opacity: 0.5;
     font-size: 20%;
     color: white;
-}
-@media (min-width:781px) and (max-width: 979px)
-{
-
 }
