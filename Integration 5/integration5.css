@@ -11,7 +11,15 @@ h3{
 	opacity: 0.6;
 	color: white;
 	padding-left: 4%;
+}
+h5{
+	margin-bottom: 0;
+	color:#24890d;
+}
 
+hr {
+	height: 8px;
+	background-color: black;
 }
 .navigation {
 	margin: 0;
@@ -150,6 +158,11 @@ li a {
 	font-size:90%;
 	padding-top: 30%;
 }
+#foot{
+	opacity:0.5;
+	font-size:90%;
+	color:white;
+}
 .deroulant p{
 	margin-top: 2%;
 }
@@ -201,21 +214,82 @@ li a {
 }
 .contenu{
 	display: flex;
-	flex-direction: column;
-	display: flex;
 	flex-direction: row;
-	justify-content: center;
 }
 .text{
-	width: 100%;
 	height: 780px;
-	width: 580px;
+	width: 45%;
+	margin-left: 10%;
+}
+.text h1{
+	font-size:200%;
+	font-weight: lighter;
 }
 .gigs{
-	
+	width: 30%;
+	height: 780px;
+	margin-left: 12%;
+}
+.gigs h1{
+	font-weight: bold;
+	font-size: 120%;
+}
+.date{
+	border-bottom: 1px solid rgba(5, 0, 0,0.2);
+}
+#lieu{
+	font-style:italic;
+	opacity: 0.5;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#dates{
+	opacity:0.5;
+	font-size:90%;
+	margin-top: 0;
 }
 .footer{
+	display: flex;
+	align-items: center;
 	width: 100%;
 	height: 60px;
 	background-color: black;
+	padding-left: 5%;
+}
+.feat{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+	height: 40%;
+}
+.feat p{
+	font-size: 70%;
+	font-style:italic;
+	color:grey;
+}
+.player{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	border-top:solid 8px;
+	height: 20%;
+
+}
+.player h1{
+	font-weight: bold;
+	font-size: 120%;
+	margin-left: 3%;
+	margin-top: 4%;
+}
+.play{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	height: 50%;
+	width: 12%;
+}
+.green{
+	color:#24890d;
 }
