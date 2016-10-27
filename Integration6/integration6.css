@@ -47,6 +47,7 @@ a{
 
 a:hover{
 	background-color: #2980b9 !important;
+	opacity: 1;
 
 }
 .privy{
@@ -120,8 +121,15 @@ a:hover{
 	height: 192px;
 	width: 100%;
 	border-bottom: 1px solid rgba(5,0,0,0.2);
-
 }
+.articlefin{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 192px;
+	width: 100%;
+}
+
 .date{
 	display: flex;
 	flex-direction: column;
@@ -142,6 +150,26 @@ a:hover{
 	height: 62%;
 	padding-left: 3%;
 }
+.presentation a{
+	text-decoration: none;
+	opacity: 1;
+	color:black !important;
+	background-color: transparent !important;
+}
 .presentation h2 {
 	text-transform: uppercase;
+	color: black;
+}
+.contenu3{
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 800px;
+	height: 300px;
+	border-top: 1px solid rgba(5,0,0,0.2);
+}
+.contenu3 h2 {
+	text-transform: uppercase;
+	opacity: 0.3;
 }
