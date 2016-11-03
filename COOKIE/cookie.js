@@ -53,6 +53,16 @@ if ($score >=94){
 $bouton.onclick = click;
 
 
+// BOUTON AUTOCLICK 
+
+// setInterval(function(){ 
+//     document.getElementById("bouton").click();
+// }, 1000);
+
+
+
+
+
 // function clickbis(){
 
 // $scorebis += $compteur;
@@ -83,8 +93,8 @@ $bouton.onclick = click;
 
 // function stop (){
 // if $score == 50
-// 	alert ("Clinton a gagné les élections ! Ouf")
+// 	alert ("Clinton a gagné les élections ! ")
 // else
-// 	alert ("Trump a gagné les élections ! Good luck...")
+// 	alert ("Trump a gagné les élections ! ")
 // }
 
