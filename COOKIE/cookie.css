@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+
+}
+.container{
+	height: 900px;
+	background:url("http://4.bp.blogspot.com/-akhsVKtl1Vc/Tb8Den1jkoI/AAAAAAAAAck/qpTDg_G01us/s1600/American+Flag+Wallpaper+%25284%2529.jpg");
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: green;
+	background-size: cover;
+	font-family: 'Coiny', cursive;
+	font-size: 120%;
+
+}
+.combat{
+	margin-top: 2%;
+	height: 60%;
+	width: 100%;
+	background:url("http://static2.politico.com/dims4/default/87a4bf0/2147483647/resize/1160x%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2F66%2Fda%2F8c6bd9ff45b0b8ac3657e1dd7735%2Fjess3-politico-vs-animated-08.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.face2face{
+	width: 70%;
+	height: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.clinton{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 50%;
+}
+button{
+	width: 30%;
+	height: 5%;
+	margin-top: 2%;
+}
+.trump{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 40%;
+}
