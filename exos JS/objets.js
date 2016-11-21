@@ -3,6 +3,9 @@ $prenom = document.getElementById("prenom");
 $nom = document.getElementById("nom");
 $numero = document.getElementById("numero");
 $ajouter = document.getElementById("ajouter");
+$recherche = document.getElementById("recherche");
+$rechercher = document.getElementById("rechercher");
+$resultatRecherche = document.getElementById("resultatRecherche");
 
 contacts = [{
     prenom: "Momo",
@@ -38,4 +41,15 @@ function ajout(contact){
 }
 
 $ajouter.onclick = ajout;
+afficher();
+
+
+
+
+function rechercher() {
+
+}
+
+$ajouter.onclick = ajout;
+$rechercher.onclick = rechercher;
 afficher();
