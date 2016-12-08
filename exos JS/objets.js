@@ -16,10 +16,14 @@ contacts = [{
     nom: "Smith",
     numero: "0123456789"
 }];
+
+
 function texteContact(contact) {
 return contact.prenom + " " + contact.nom + " (" + contact.numero + ")";
 }
 alert(texteContact(contacts[0])); // affiche « Julien Grillot (0123456789) »
+
+
 
 function afficher() {
     elements = "";
@@ -28,8 +32,6 @@ function afficher() {
     }
     $liste.innerHTML = elements;
 }
-
-
 
 function ajout(contact){
     contacts.push({
@@ -44,10 +46,16 @@ $ajouter.onclick = ajout;
 afficher();
 
 
-
-
 function rechercher() {
 
+recherche = $recherche.value;
+    elements = "";
+for (i = 0; i < contacts.length; i++) {
+        if (contacts[i].prenom == recherche || contacts[i].nom == recherche || contacts[i].numero == recherche) {
+            elements += "<li>" + texteContact(contacts[i]) + "</li>";
+        }
+    }
+    $resultatRecherche.innerHTML = elements;
 }
 
 $ajouter.onclick = ajout;

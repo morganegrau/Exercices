@@ -1,0 +1,12 @@
+.selected {
+  background-color: #88f;
+}
+button{
+	background-color: yellow;
+}
+.masque {
+	display:none;
+}
+.restauration {
+	display:all;
+}

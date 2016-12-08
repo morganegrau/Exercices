@@ -1,0 +1,57 @@
+.body{
+	height: 500px;
+	width: 100%;
+	background-color: grey;
+	display: flex;
+
+}
+
+#jeu{
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width: 50%;
+}
+.ligne {
+	display: flex;
+	flex-direction: row;
+	height: 33%;
+}
+#x1y1{
+	height: 100%;
+	width: 33%;
+	border-style: solid;
+}
+#x1y2{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x1y3{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x2y1{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x2y2{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x2y3{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x3y1{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x3y2{
+	height: 100%;
+	width: 33%;
+	border-style: solid;}
+#x3y3{
+	height: 100%;
+	width: 33%;
+	border-style: solid;
+}
