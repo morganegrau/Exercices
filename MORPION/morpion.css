@@ -3,55 +3,63 @@
 	width: 100%;
 	background-color: grey;
 	display: flex;
-
 }
 
 #jeu{
 	display: flex;
-	flex-direction: column;
-	height: 500px;
-	width: 50%;
+	flex-wrap: wrap; 
+	height: 300px;
+	width: 330px;
+	margin: 5%;
 }
-.ligne {
-	display: flex;
-	flex-direction: row;
-	height: 33%;
-}
+
 #x1y1{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;
 }
 #x1y2{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x1y3{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x2y1{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x2y2{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x2y3{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x3y1{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x3y2{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;}
 #x3y3{
-	height: 100%;
-	width: 33%;
+	height: 33%;
+	width: 100px;
 	border-style: solid;
+}
+.selected {
+	background-color:red;
+}
+.player1{
+	background-color:green;
+}
+.player2{
+	background-color:red;
+}
+.efface{
+	background-color:#fff;
 }
