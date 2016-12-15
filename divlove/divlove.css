@@ -1,0 +1,102 @@
+body {
+
+	height: 90vh;
+	margin: 0;
+	background:url("img/image001.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.colonne{
+	height: 70%;
+	width: 10%;
+	background-color: transparent;
+	margin-left: 80%;
+	animation: bouge 10s infinite;
+}
+.birdmove{
+height: 40%;
+width: 90%;
+background-color: transparent;
+animation:hautbas 3s infinite alternate;
+}
+.birdy{
+background:url("img/eagle.png");
+height: 100%;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+.bird2{
+background:url("img/eagle.png");
+height: 100%;
+background-repeat: no-repeat;
+background-size: contain;
+transform: scaleX(-1);
+}
+
+.moutons{
+	height: 20%;
+	width: 100%;
+	background-color: transparent;
+}
+.boite{
+height: 60%;
+width: 10%;
+animation: bouge 4s infinite;
+background-color: transparent;
+}
+
+.boite2{
+height: 100%;
+width: 10%;
+animation: bougedroite 8s infinite;
+background-color: transparent;
+transform: scaleX(-1);
+}
+
+.un{
+	margin-top: 10%;
+	height: 80%;
+	width: 80%;
+	border-radius: 20%;
+	animation: bounce 0.5s infinite ;
+	background:url("img/mouton.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.deux{
+	margin-top: 10%;
+	height: 100%;
+	width: 100%;
+	border-radius: 20%;
+	animation: bounce 1s infinite ;
+	background:url("img/mouton.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@keyframes bounce {
+    50% {transform: translateY(-30px);}
+} 
+
+@keyframes bouge {
+  from {margin-left: -2%;}
+  to {margin-left: 102%;}
+}
+@keyframes bougedroite {
+  from {margin-left: 102%;}
+  to {margin-left: -40%;}
+}
+
+@keyframes hautbas {
+	from {
+		margin-top: -5%;
+	}
+	to {
+		margin-top: 55vh;
+	}
+}
+
